@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="simplelightbox/simplelightbox.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/82eb8ffe24.js"></script>
+
+    <title>Headphones</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__logo">Phono</h1>
+        <nav class="header__nav">
+          <label class="header__toggler-icon" for="toggler">
+            <!-- &#9776  -->
+            <i class="fas fa-bars"></i>
+          </label>
+          <input  class="header__toggler-checkbox" id="toggler" type="checkbox">
+          <ul class="header__list">
+            <li class="header__item">
+              Home
+            </li>
+            <li class="header__item">
+              About
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__info">
+          <h1 class="hero__title">The headphones of the future.</h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+            commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+            reprehenderit eaque culpa.
+          </p>
+          <button class="btn btn--primary">Read More</button>
+        </div>
+        <img
+          class="hero__img"
+          src="https://i.ibb.co/37Y74kv/showcase.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info__overlay">
+        <div class="info__container">
+          <h3 class="info__slogan">Loud & Clear</h3>
+          <h1 class="info__title">People Aren't Hearing All the Music</h1>
+          <p class="infot__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            repudiandae laboriosam quia, error tempore porro ducimus voluptate
+            laborum nostrum iure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <ul class="gallery__list">
+        <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="gallery__item"
+          ><img
+            class="gallery__img"
+            src="https://i.ibb.co/CHLBZnp/gal2323.jpg"
+            alt=""
+        /></a>
+        <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="gallery__item"
+          ><img
+            class="gallery__img"
+            src="https://i.ibb.co/4pBbhfY/gal39834.jpg"
+            alt=""
+        /></a>
+        <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="gallery__item"
+          ><img
+            class="gallery__img"
+            src="https://i.ibb.co/xSnHP7g/gal43884.jpg"
+            alt=""
+        /></a>
+        <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="gallery__item"
+          ><img
+            class="gallery__img"
+            src="https://i.ibb.co/QN6Bnrb/gal4958.jpg"
+            alt=""
+        /></a>
+        <a href="https://i.ibb.co/dGZvj75/gal4545.jpg" class="gallery__item">
+          <img
+            class="gallery__img"
+            src="https://i.ibb.co/dGZvj75/gal4545.jpg"
+            alt=""
+        /></a>
+        <a href="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="gallery__item"
+          ><img
+            class="gallery__img"
+            src="https://i.ibb.co/S6FVFNt/gal74744.jpg"
+            alt=""
+        /></a>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h2 class="footer__social-title">Follow Us On.</h2>
+          <ul class="footer__social-list">
+            <a class="footer-social-item" href="http://twitter.com" target="_blank">
+              <i class="fab fa-twitter fa-2x footer__social-icon"></i>
+            </a>
+            <a class="footer-social-item" href="http://facebook.com" target="_blank">
+              <i class="fab fa-facebook fa-2x footer__social-icon"></i>
+            </a>
+            <a class="footer-social-item" href="http://youtube.com" target="_blank">
+              <i class="fab fa-youtube fa-2x footer__social-icon"></i>
+            </a>
+          </ul>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li class="footer__item"><a href="#">All Products</a></li>
+            <li class="footer__item"><a href="#">About Us</a></li>
+            <li class="footer__item"><a href="#">Privacy Policy</a></li>
+            <li class="footer__item"><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li class="footer__item"><a href="#">Lorem ipsum dolor.</a></li>
+            <li class="footer__item"><a href="#">Lorem ipsum dolor.</a></li>
+            <li class="footer__item"><a href="#">Lorem ipsum dolor.</a></li>
+            <li class="footer__item"><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="footer__email-form">
+              <input class="footer__input" placeholder="E-mail" />
+              <button class="footer__btn type="submit" value="Submit">
+                <i class="fas fa-chevron-right footer__btn-icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="simplelightbox/simple-lightbox.js"></script>
+    <script>
+      $(function() {
+        const gallery = $(".gallery__list a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
