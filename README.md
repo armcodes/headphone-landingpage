@@ -1,3 +1,3 @@
 # Phone Landing page
 
-![thumbnail](thumbnail.png);
+![thumbnail](thumbnail.png)
